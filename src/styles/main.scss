@@ -1,13 +1,15 @@
-$main: #1a222c;
+$main: #000000;
 $sec: #4B5664;
 $purple: #54516A;
 $cut: 768px;
+$black: #000000;
+$white:: #ffffff;
 
-@import url('https://fonts.googleapis.com/css?family=CenturyGothic');
+@import url('https://fonts.googleapis.com/css?family=Muli');
 
 body {
   margin: 0;
-  font-family: 'CenturyGotich', sans-serif;
+  font-family: 'Muli', sans-serif;
 }
 
 @-webkit-keyframes pulse {
@@ -257,7 +259,7 @@ body {
   text-align: center;
   color: #FFF;
   .love {
-    color: white;
+    color: $white;
   }
   a {
     text-decoration: none;
