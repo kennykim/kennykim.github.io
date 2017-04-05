@@ -3,11 +3,11 @@ $sec: #4B5664;
 $purple: #54516A;
 $cut: 768px;
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=CenturyGothic');
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'CenturyGotich', sans-serif;
 }
 
 @-webkit-keyframes pulse {
@@ -233,16 +233,16 @@ body {
               background-color 0.3s ease-out,
               border-color 0.3s ease-out;
   &:hover {
-    background-color: $purple;
-    border-color: $purple;
+    background-color: $black;
+    border-color: $white;
     color: #fff;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
   }
   &:active {
-    background-color: $purple;
-    border-color: $purple;
+    background-color: $black;
+    border-color: $white;
     color: #fff;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
@@ -257,7 +257,7 @@ body {
   text-align: center;
   color: #FFF;
   .love {
-    color: red;
+    color: white;
   }
   a {
     text-decoration: none;
