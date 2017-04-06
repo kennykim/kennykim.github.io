@@ -4,12 +4,31 @@
   </div>
   <div class="row user-projects">
     <div class="six columns images">
-      <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+      <img alt="qar" src="{{ "/assets/img/qar.JPG" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
-      <h5> Project Title </h5>
-      <li> Featured Skills</li>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <h5> Qar </h5>
+      <li> Q-Learning</li>
+      <p>Qar is a small project AI-based system in which a car in a grid learns how to drive avoiding walls. It uses Q-Learning algorithm to obtain the optimal policy via trial and error. The car has the option to choose one action before every tick and the car will move one square into the facing direction after the tick.</p>
+        <h3> Action Space </h3>
+        <ul>
+            <li> Turn Left</li>
+            <li> Turn Right</li>
+            <li> Do Nothing</li>
+        </ul>
+        
+        <h3>State Space</h3>
+        <ul>
+            <li> Distance from wall in front </li>
+            <li> Distance from wall to the left </li>
+            <li> Distance from wall to the right </li>
+        </ul>
+        
+        <h3> Rewards </h3>
+        <ul>
+            <li> -100 for crashing </li>
+            <li> 0 for staying alive </li>
+        </ul>
       <a class="project-link" href="#">Check it out</a>
     </div>
   </div>

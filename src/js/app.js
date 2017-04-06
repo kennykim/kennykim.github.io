@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "circle",
+        "type": "star",
         "stroke": {
           "width": 0,
           "color": "#ffffff"
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "grab"
         },
         "onclick": {
