@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": "#ffffff"
       },
       "shape": {
-        "type": ["circle","polygon","triangle","edge","star"],
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#ffffff"
