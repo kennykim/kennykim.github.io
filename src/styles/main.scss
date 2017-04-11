@@ -237,7 +237,7 @@ body {
   &:hover {
     background-color: $black;
     border-color: $white;
-    color: #fff;
+    color: #ffffff;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
@@ -245,7 +245,7 @@ body {
   &:active {
     background-color: $black;
     border-color: $white;
-    color: #fff;
+    color: #ffffff;
     transition: color 0.3s ease-in,
                 background-color 0.3s ease-in,
                 border-color 0.3s ease-in;
@@ -260,6 +260,9 @@ body {
   color: #FFF;
   .love {
     color: $white;
+      &:hover{
+          color: red;
+      }
   }
   a {
     text-decoration: none;
