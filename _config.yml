@@ -1,15 +1,15 @@
 # Site settings
-title: Jesus Molina
-description: Jesus Molina Webpage
+title: Kenny Kim
+description: Kenny Kim's website
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Jesus Molina
-user_description: "I am a Software Engineer at Microsoft.I obtained my master's degreein December 2017 from the University of Texas at El Paso."
-user_title: Software Engineer
-email: jemonsivais@gmail.com
-github_username:  jemonsivais
+username: Kenny Kim
+user_description: "I'm a SDE II at Microsoft. I'm Data Scientist by night. I received my Master's degree in Information Systems and Bachelor's degree at the University of Washington"
+user_title: Data Scientist
+email: kennykim.90@gmail.com
+github_username:  kennykim
 
 # Google-analytics
 google-analytics:
