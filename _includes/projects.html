@@ -1,89 +1,14 @@
 <div class="container">
   <div class="user-details">
-    <h3> Featured Projects </h3>
+    <h3> Featured Blogs </h3>
   </div>
   <div class="row user-projects">
     <div class="six columns images">
-      <img alt="qar" src="{{ "/assets/img/qar.JPG" | prepend: site.baseurl }}" />
+      <img alt="Yelp" src="{{ "/assets/img/yelp.jpg" | prepend: site.baseurl }}" />
     </div>
     <div class="six columns">
-      <h5> Qar </h5>
-        <ul>
-            <li>Java </li>
-            <li> Artificial Intelligence </li>
-            <li> Q-Learning</li>
-        </ul>
-      <p>Qar is a small project AI-based system in which a car in a grid learns how to drive avoiding walls. It uses Q-Learning algorithm to obtain the optimal policy via trial and error. The car has the option to choose one action before every tick and the car will move one square into the facing direction after the tick.</p>
-      <a class="project-link" href="https://www.github.com/jemonsivais/Qar">Repository</a>
+      <h5>NLP with Yelp Review</h5>
+      <p>Natural Language Processing (NLP) is a very hot topic in the world of machine learning. In this blog, I take my readers through yelp review data to find out what the customers are saying through a step by step tutorial using Python.</p>
+      <a class="project-link" href="https://medium.com/@kennykim.90/what-are-your-customers-saying-natural-language-processing-nlp-with-yelp-review-data-65c4ce57287b">Blog</a>
     </div>
-  </div>
-  <div class="row user-projects">
-    <div class="six columns">
-      <img alt="yelp" src="{{ "/assets/img/yelp.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> Yelp review star predictor </h5>
-      <ul>
-        <li> Python </li>
-          <li> Data Mining </li>
-          <li> Document classification </li>
-      </ul>
-      <p>This project was developed for the Yelp dataset challenge, it is a star predictor that uses Naive Baye's classification algorithm to classify a review into how many stars it has. The data was taken from Yelp webpage and half is used to train the classificator and the other half is used to test the classificator.</p>
-      <a class="project-link" href="https://www.github.com/jemonsivais/Yelp-Classification">Repository</a>
-    </div>
-  </div>
-    
-  <div class="row user-projects">
-    <div class="six columns images">
-      <img alt="map" src="{{ "/assets/img/maps.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> Google maps proximity reminder </h5>
-        <ul>
-            <li>Java </li>
-            <li> Google maps API </li>
-            <li> Android development </li>
-        </ul>
-      <p> The application provides a map in which the user can hold a certain location, there the application will ask for a to-do message. When the device is close to the location specified (~ 1000 meters) the application will notify the user with the to-do message. </p>
-      <a class="project-link" href="https://www.github.com/jemonsivais/MapReminder">Repository</a>
-    </div>
-  </div>
-    
-    
-  <div class="row user-projects">
-    <div class="six columns">
-      <img alt="security" src="{{ "/assets/img/rpi.png" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> RPi Motion detection security camera </h5>
-        <ul>
-            <li>Python </li>
-            <li> Computer Vision </li>
-            <li> RPi </li>
-            <li> OpenCV </li>
-        </ul>
-      <p> Simple security project using a Raspberry Pi with a camera. The code detects motion and sends an email with the video feed to the user. </p>
-    <p> Motion is detected by using the difference between two consecutive frames, and if the difference is substantial enough, then the camera stard saving those frames into a video. Once there is no movement, the video is closed and sent to the user. </p>
-      <a class="project-link" href="https://www.github.com/jemonsivais/MotionDetectionSecurityCamera">Repository</a>
-    </div>
-  </div>
-    
-    
-<div class="row user-projects">
-    <div class="six columns images">
-      <img alt="security" src="{{ "/assets/img/TitleScreen.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <div class="six columns">
-      <h5> Msp430 Racing Car Game </h5>
-        <ul>
-            <li>Msp430</li>
-            <li>C</li>
-            <li>Interrupts</li>
-            <li>Embedded Systems</li>
-        </ul>
-      <p> Simple racing car game created for the Msp430 with an attached LCD black and White display. The goal is to void as many cars as possible using the right and left buttons to move right and left. The graphics were created using pixel art. </p>
-        <p> The game is developed in C in its entirety from handling pins to writing pixels to the screen to the abstracted game logic of detecting overlaps and accelerating the speed of the game. </p>
-      <a class="project-link" href="https://www.github.com/jemonsivais/RaceCar">Repository</a>
-    </div>
-  </div>
 </div>
